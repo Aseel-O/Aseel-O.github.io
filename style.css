@@ -1,0 +1,252 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+  font-family: "Shantell Sans", cursive;
+  
+  font-weight: 300;
+  font-style: normal;
+  
+  color: black;
+  background-color: rgb(238, 238, 238);
+  
+}
+
+
+
+
+.mainContainer {
+  margin: 20px 100px;
+
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 33% 66%;
+}
+
+.leftContainer {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.rightContainer {
+  /* width: 75%; */
+
+  /* margin: 10px; */
+}
+.info {
+  border-bottom: 1px solid;
+}
+.edu,
+.work {
+  margin-bottom: 20px;
+
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+i {
+  margin-right: 15px;
+}
+.profileImg {
+  position: relative;
+  height: 6%;
+  overflow: hidden;
+  padding: 0;
+  border-radius: 20px  20px 0 0;
+  margin: -20px;
+  background-color: #30b8a4;
+}
+.profileImg img {
+  min-width: 100%;
+  height: auto;
+ 
+}
+
+#name {
+  position: absolute;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  bottom: 0.1%;
+  left: 7%;
+}
+.info,
+.skills,
+.lang {
+  padding: 20px 0;
+  margin-bottom:  0px;
+}
+.skills{
+  height: auto !important;
+  margin-bottom:100px ;
+}
+#job {
+  display: flex;
+}
+
+.title {
+  font-size: 25px;
+}
+.title2 {
+  font-size: 30px;
+}
+.t {
+  font-weight: bold;
+}
+.d {
+  color: #30b8a4;
+}
+.fa {
+  color: #30b8a4;
+}
+.fulllength {
+  background-color: lightgrey;
+  border-radius: 50px;
+  width: 100%;
+}
+.percent {
+  background-color: #30b8a4;
+  border-radius: 50%;
+  border-radius: 50px;
+  width: 100%;
+  padding: 3px;
+}
+.percent-lang {
+  padding: 11px 0px;
+}
+
+.percent10 {
+  width: 30px;
+  color: aliceblue;
+  font-size: small;
+  text-align: center;
+}
+.percent20 {
+  width: 60px;
+  color: aliceblue;
+  font-size: small;
+  text-align: center;
+}
+.percent30 {
+  width: 90px;
+  color: aliceblue;
+  font-size: small;
+  text-align: center;
+}
+.percent40 {
+  width: 120px;
+  color: aliceblue;
+  font-size: small;
+  text-align: center;
+}
+.percent50 {
+  width: 150px;
+  color: aliceblue;
+  font-size: small;
+  text-align: center;
+}
+.percent60 {
+  width: 180px;
+  color: aliceblue;
+  font-size: small;
+  text-align: center;
+}
+.percent70 {
+  width: 210px;
+  color: aliceblue;
+  font-size: small;
+  text-align: center;
+}
+.percent80 {
+  width: 240px;
+  color: aliceblue;
+  font-size: small;
+  text-align: center;
+}
+.percent90 {
+  width: 270px;
+  color: aliceblue;
+  font-size: small;
+  text-align: center;
+}
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #30b8a4;
+}
+footer p {
+  color: aliceblue;
+}
+social-media {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+/* Base styles for all screen sizes (default styles) */
+
+/* Media query for phones (screen width up to 600 pixels) */
+@media (max-width: 600px) {
+  /* Your CSS styles for phones here */
+  .mainContainer {
+    margin: 20px 20px;
+
+    display: block;
+  }
+
+  .leftContainer {
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+}
+
+/* Media query for tablets (screen width between 601 and 1024 pixels) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  /* Your CSS styles for tablets here */
+  .mainContainer {
+    margin: 20px 20px;
+
+    display: grid;
+  }
+
+  .leftContainer {
+    background-color: white;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+}
+
+/* Media query for laptops (screen width between 1025 and 1440 pixels) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  /* Your CSS styles for laptops here */
+  .mainContainer {
+    margin: 20px 20px;
+
+    display: grid;
+  }
+
+  .leftContainer {
+    background-color: white;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+}
+
+/* Media query for large screens (screen width greater than 1440 pixels) */
+@media (min-width: 1441px) {
+  /* Your CSS styles for large screens here */
+  body {
+    font-size: large;
+  }
+  .mainContainer {
+    margin: 20px 5%;
+  }
+}
